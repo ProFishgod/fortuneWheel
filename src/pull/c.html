@@ -1,0 +1,352 @@
+<html>
+<head>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .bg-img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 300px;
+            background-image: url(bg1.png);
+        }
+        .bg-img .bg1{
+            position: absolute;
+            width: 650px;
+            top: 0px;
+            left: 0px;
+        }
+        .bg-img .yp{
+            position: absolute;
+            width: 450px;
+            top: 485px;
+            left: 100px;
+        }
+        .bg-img .a{
+            position: absolute;
+            width: 195px;
+            top: 485px;
+            left: 325px;
+            opacity: 1;
+            display: none
+        }
+        .bg-img .b{
+            position: absolute;
+            width: 225px;
+            top: 597px;
+            left: 325px;
+            opacity: 1;
+            display: none
+        }
+        .bg-img .c{
+            position: absolute;
+            width: 195px;
+            top: 710px;
+            left: 325px;
+            opacity: 1;
+            display: none
+        }
+        .bg-img .d{
+            position: absolute;
+            width: 195px;
+            top: 710px;
+            left: 130px;
+            opacity: 1;
+            display: none
+        }
+        .bg-img .e{
+            position: absolute;
+            width: 225px;
+            top: 597px;
+            left: 102px;
+            opacity: 1;
+            display: none
+        }
+        .bg-img .f{
+            position: absolute;
+            width: 193px;
+            top: 485px;
+            left: 133px;
+            display: none
+        }
+        .bg-img .ypw{
+            position: absolute;
+            width: 600px;
+            top: 420px;
+            left: 25px;
+            animation: A 10s linear infinite;
+        }
+        @keyframes A {
+            0%{transform:rotateZ(0deg);}
+          100%{transform:rotateZ(-360deg);}
+        } 
+        .bg-img .ypz{
+            position: absolute;
+            width: 535px;
+            top: 435px;
+            left: 58px;
+            animation-name:B ;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes B {
+          0%{transform:rotateZ(0deg);}
+          80%{transform:rotateZ(180deg);}
+          100%{transform:rotateZ(180deg);}
+        }
+        .bg-img .ypn{
+            position: absolute;
+            width: 500px;
+            top: 460px;
+            left: 75px;
+            animation-name:C ;
+            animation-duration: 1s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes C {
+          0%{transform:rotateZ(0deg);}
+          100%{transform:rotateZ(5deg);}
+        }
+        .bg-img .zx{
+            position: absolute;
+            width: 390px;
+            top: 485px;
+            left: 131px;
+        }
+        .bg-img .zz{
+            position: absolute;
+            width: 75px;
+            top: 590px;
+            left: 285px;
+        }
+        .bg-img .chou{
+            position: absolute;
+            width: 35px;
+            top: 693px;
+            left: 306px;
+        }
+        .bg-img .jfcj{
+            position: absolute;
+            width: 450px;
+            top: 50px;
+            left: 100px;
+        }
+        .bg-img .zs{
+            position: absolute;
+            width: 600px;
+            top: 210px;
+            left: 20px;
+        }
+        .bg-img .lsjl{
+            position: absolute;
+            width: 100px;
+            top: 320px;
+            left: 500px;
+        }
+        .bg-img .gz{
+            position: absolute;
+            width: 100px;
+            top: 320px;
+            left: 37px;
+        }
+        .bg-img .qiua1{
+            position: absolute;
+            width: 70px;
+            top: 600px;
+            left: 420px;
+        }
+        .bg-img .qiua2{
+            position: absolute;
+            width: 80px;
+            top: 825px;
+            left: 285px;
+        }
+        .bg-img .qiub{
+            position: absolute;
+            width: 50px;
+            top: 595px;
+            left: 140px;
+        }
+        .bg-img .qiuc{
+            position: absolute;
+            width: 80px;
+            top: 825px;
+            left: 285px;
+            animation-name:D ;
+            animation-duration: 3s;
+            animation-delay: 1;
+            animation-iteration-count:infinite;
+        }
+        .bg-img .qiud{
+            position: absolute;
+            width: 70px;
+            top: 600px;
+            left: 420px;
+            animation-name:D ;
+            animation-duration: 3s;
+            animation-delay: 1;
+            animation-iteration-count:infinite;
+        }
+        .bg-img .qiue{
+            position: absolute;
+            width: 40px;
+            top: 600px;
+            left: 145px;
+            animation-name:D ;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes D {
+          0%{opacity: 1;}
+          50%{opacity: 0;}
+          100%{opacity: 1;}
+        }
+        .bg-img .xxcy1{
+            position: absolute;
+            width: 100px;
+            top: 700px;
+            left: 130px;
+        }
+        .bg-img .xxcy2{
+            position: absolute;
+            width: 100px;
+            top: 700px;
+            left: 420px;
+        }
+        .bg-img .icona{
+            position: absolute;
+            width: 100px;
+            top: 500px;
+            left: 180px;
+        }
+        .bg-img .iconb{
+            position: absolute;
+            width: 100px;
+            top: 500px;
+            left: 380px;
+        }
+        .bg-img .iconc{
+            position: absolute;
+            width: 100px;
+            top: 840px;
+            left: 380px;
+        }
+        .bg-img .icond{
+            position: absolute;
+            width: 100px;
+            top: 840px;
+            left: 180px;
+        }
+        .bg-img .jpa{
+            position: absolute;
+            width: 80px;
+            top: 760px;
+            left: 230px;
+        }
+        .bg-img .jpb{
+            position: absolute;
+            width: 100px;
+            top: 750px;
+            left: 330px;
+        }
+        .bg-img .jpc{
+            position: absolute;
+            width: 100px;
+            top: 550px;
+            left: 330px;
+        }
+        .bg-img .jpd{
+            position: absolute;
+            width: 100px;
+            top: 550px;
+            left: 220px;
+        }
+        .bg-img .zjts .img{
+            position: absolute;
+            width: 500px;
+            top: 400px;
+            left: 75px;
+        }      
+        .bg-img .qra{
+            position: absolute;
+            width: 325px;
+            top: 875px;
+            left: 115px;
+        }       
+        .bg-img .qrb{
+            position: absolute;
+            width: 325px;
+            top: 875px;
+            left: 115px;
+            display: none;
+        }         
+        .bg-img .qrc{
+            position: absolute;
+            width: 80px;
+            top: 920px;
+            left: 250px;
+        }   
+        .bg-img .ys{
+            position: absolute;
+            width: 140px;
+            top: 150px;
+            left: 400px;
+        }   
+        .bg-img .jb{
+            position: absolute;
+            width: 40px;
+            top: 180px;
+            left: 50px;
+        }   
+    </style>.
+</head>
+<body>
+    <div class= bg-img>
+        <img class="bg1" src="bg1.png">
+        <img class="yp" src="yp.png">
+        <img class="a" src="a.png">
+        <img class="b" src="b.png">
+        <img class="c" src="c.png">
+        <img class="d" src="d.png">
+        <img class="e" src="e.png">
+        <img class="f" src="f.png">
+        <img class="ypw" src="ypw.png">
+        <img class="ypz" src="ypz.png">
+        <img class="ypn" src="ypn.png">
+        <img class="zx" src="zx.png">
+        <img class="zz" src="zz.png">
+        <img class="chou" src="chou.png">
+        <img class="jfcj" src="jfcj.png">
+        <img class="zs" src="zs.png">
+        <img class="lsjl" src="lsjl.png">
+        <img class="gz" src="gz.png">
+        <img class="qiua1" src="qiua.png">
+        <img class="qiua2" src="qiua.png">
+        <img class="qiub" src="qiub.png">
+        <img class="qiuc" src="qiuc.png">
+        <img class="qiud" src="qiud.png">
+        <img class="qiue" src="qiue.png">
+        <img class="xxcy1" src="xxcy.png">
+        <img class="xxcy2" src="xxcy.png">
+        <img class="icona" src="icona.png">
+        <img class="iconb" src="iconb.png">
+        <img class="iconc" src="iconc.png">
+        <img class="icond" src="icond.png">
+        <img class="jpa" src="jpa.png">
+        <img class="jpb" src="jpb.png">
+        <img class="jpc" src="jpc.png">
+        <img class="jpd" src="jpd.png">
+        <div class="zjts">
+            <img class="img" src="zjts.png"> 
+        <img class="qra" src="qra.png">
+        <img class="qrb" src="qrb.png">
+        <img class="qrc" src="qrc.png">
+        <img class="ys" src="ys.png">
+        <img class="jb" src="jb.png">
+        </div>
+    </div>
+</body>
+</html>
