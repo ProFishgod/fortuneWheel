@@ -4,8 +4,8 @@ html, body {
     overflow: hidden;
 }
 .bg-img {
-    width: 100%;
-    height: 100%;
+    width: 650px;
+    height: 1500px;
     position: relative;
     left: 300px;
     background-image: url(bg1.png);
@@ -117,7 +117,7 @@ html, body {
     position: absolute;
     width: 75px;
     top: 590px;
-    left: 285px;
+    left: 287px;
     transform-origin: 50% 76%;
     z-index: 1;
 }
@@ -283,7 +283,7 @@ html, body {
 }
 .bg-img .zjtsbt{
     position: absolute;
-    top: 450px;
+    top: 400px;
     left: 260px;
     font-size: 50px;
     color: azure;
@@ -330,7 +330,7 @@ html, body {
 .bg-img .yss{
     position: absolute;
     width: 140px;
-    top: 175px;
+    top: 150px;
     left: 520px;
     font-size: xx-large;
     color: white;
@@ -344,7 +344,7 @@ html, body {
 .bg-img .jbs{
     position: absolute;
     width: 40px;
-    top: 175px;
+    top: 150px;
     left: 100px;
     font-size: xx-large;
     color: white;
